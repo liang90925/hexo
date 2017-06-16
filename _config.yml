@@ -69,6 +69,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/liang90925/hexo.git
+  repo: https://github.com/liang90925/liang90925.github.io.git
   branch: master
-  message: first commit
+  message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
